@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>SecHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>SecHub - Siber Güvenlik Araçları</h1>
+
+<p>Bu siteye kayıt olduğunuzda e-posta ve IP adresiniz yalnızca site yöneticisi tarafından görülebilir.</p>
+
+<h2>Kayıt Ol</h2>
+<form id="registerForm">
+    <input type="email" id="email" placeholder="E-posta" required><br><br>
+    <label><input type="checkbox" required> Bilgilerimin kaydedilmesini kabul ediyorum</label><br><br>
+    <button type="submit">Kayıt Ol</button>
+</form>
+
+<div id="welcome" style="display:none;">
+    <h2>Hoşgeldiniz!</h2>
+    <p>Artık araçlara erişebilirsiniz:</p>
+    <ul>
+        <li><a href="tools/random_password.html">Rastgele Şifre Oluşturucu</a></li>
+        <li><a href="tools/hash_gen.html">Hash Oluşturucu</a></li>
+        <li><a href="tools/ip_lookup.html">IP Lookup</a></li>
+    </ul>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
